@@ -11,7 +11,7 @@ export default function List (props) {
           >
             {item.name}
           </span>
-          <button onClick={() => props.remove(item)}>X</button>
+          <button className='danger' onClick={() => props.remove(item)}>X</button>
         </li>
       ))}
     </ul>
